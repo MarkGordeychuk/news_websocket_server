@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+}
+
+#list {
+  display: block;
+  width: 70%;
+  box-sizing: border-box;
+  padding: 20px 40px;
+}
+
+#functional-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.2.0/redux.min.js" integrity="sha512-1/8Tj23BRrWnKZXeBruk6wTnsMJbi/lJsk9bsRgVwb6j5q39n0A00gFjbCTaDo5l5XrPVv4DZXftrJExhRF/Ug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="root">
+  <article id="list">
+    <ul>
+
+    </ul>
+  </article>
+  <div id="functional-block">
+    <article id="send-message">
+      <form method="post" action="news">
+        <textarea name="data"></textarea>
+        <button type="submit">Отправить!</button>
+      </form>
+    </article>
+    <button id="check-con">Проверить соединение</button>
+    <button id="con">Подключиться</button>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
